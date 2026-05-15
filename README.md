@@ -1,4 +1,4 @@
-# Sistem Monitoring dan Kontrol Irigasi Otomatis Berbasis Rust 
+# Sistem Monitoring dan Kontrol Irigasi Otomatis Berbasis Rust 🌾
 
 Repository ini berisi *source code* dan dokumentasi untuk Project Evaluasi Tengah Semester (ETS) mata kuliah Algoritma dan Pemrograman. 
 
@@ -9,7 +9,7 @@ Repository ini berisi *source code* dan dokumentasi untuk Project Evaluasi Tenga
 
 ---
 
-##  Deskripsi Project
+## 📝 Deskripsi Project
 Sistem ini adalah purwarupa perangkat lunak (*software*) sistem kontrol irigasi otomatis berbasis *closed-loop control system*. Program ini disimulasikan sebagai aplikasi berbasis terminal (*console application*) yang dikembangkan menggunakan bahasa pemrograman **Rust**. 
 
 Sistem ini membaca input multi-variabel, yaitu level air (cm) dan kelembapan tanah (%) dari tiga titik sensor yang berbeda di lahan persawahan. Program menerapkan **Pemrograman Berbasis Objek (OOP)** dan komputasi numerik (*Spatial Average*) untuk bertindak sebagai *controller* cerdas yang mengevaluasi data sensor dan mengendalikan aktuator (pompa irigasi) secara berjenjang.
